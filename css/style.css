@@ -1,0 +1,243 @@
+body {
+    text-align: center;
+    background-color: #8b0000;
+    background-color: rgb(110, 13, 13);
+}
+
+.navbar {
+    font-size: 25px;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+}
+
+.pic {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    color: white;
+
+}
+
+.cover {
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+    background-image: url(https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=891&q=80);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 87px;
+    box-sizing: border-box;
+}
+
+.courses {
+    width: 1300px;
+    height: auto;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.image-style {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+#Text {
+    font-weight: normal;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    height: 200px;
+    width: 400px;
+    resize: none;
+    font-family: none;
+
+}
+
+.cover2 {
+    width: 100%;
+    height: 450px;
+    padding: 130px;
+    background-image: url(https://images.unsplash.com/photo-1557200134-90327ee9fafa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.contact {
+    text-align: center;
+    width: 400px;
+    height: 500p;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading2 {
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+
+input {
+    display: block;
+    width: 150px;
+}
+
+.select1 {
+    display: block;
+    width: 150px;
+}
+
+label {
+    display: block;
+    color: black;
+}
+
+.button1 {
+    background-color: rgb(241, 119, 62);
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.jquerypic {
+    width: 100px;
+    height: 30px;
+    display: none;
+}
+.jquerypic-opposite {
+    width: 100px;
+    height: 30px;
+    display: block;
+}
+#my-modal{
+    display: none;
+}
+
+#pic-1 {
+    background-image: url("https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic-2 {
+    background-image: url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic-3 {
+    background-image: url("https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic-4 {
+    background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic-5 {
+    background-image: url("https://images.unsplash.com/photo-1519397154350-533cea5b8bff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic-6 {
+    background-image: url("https://images.unsplash.com/photo-1518932945647-7a1c969f8be2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80");
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic-7 {
+    background-image: url("https://images.unsplash.com/photo-1515524738708-327f6b0037a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic-8 {
+    background-image: url("https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic-9 {
+    background-image: url("https://images.unsplash.com/photo-1540597775766-09a0f60b4380?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    height: 300px;
+    width: 400px;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses div{
+    margin: 5px;
+
+}
+.courses div:hover{
+opacity: 0.5;
+}
